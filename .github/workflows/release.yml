@@ -36,6 +36,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./DerivedData/Build/Products/Release/SSIDonMenubar.app
+          asset_path: ./SSIDonMenubar.zip
           asset_name: SSIDonMenubar.zip
           asset_content_type: application/zip
