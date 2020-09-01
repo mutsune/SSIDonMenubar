@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SSIDonMenubar
 //
-//  Created by nakayama on 1/8/16.
+//  Created by mutsune on 1/8/16.
 //  Copyright © 2016 mutsune. All rights reserved.
 //
 
