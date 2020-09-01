@@ -16,8 +16,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let statusItem = NSStatusBar.system.statusItem(withLength: -1)
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        statusItem.title = "loading"
-        statusItem.highlightMode = true
+        statusItem.button?.title = "loading"
         statusItem.menu = statusMenu
 
         let menuItem = NSMenuItem()
@@ -30,7 +29,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @objc func setSSID(timer: Timer) {
         let ssid: String = currentSSID()
-        statusItem.title = String(ssid.prefix(3))
+        statusItem.button?.title = String(ssid.prefix(3))
     }
 
     func currentSSID() -> String {
