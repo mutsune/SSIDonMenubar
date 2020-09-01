@@ -1,6 +1,8 @@
 SSIDonMenubar
 =============
 
+![release](https://github.com/mutsune/SSIDonMenubar/workflows/release/badge.svg)
+
 Show a current connected SSID on the menubar for Mac.
 
 ![ss](https://raw.githubusercontent.com/wiki/mutsune/SSIDonMenubar/images/ss.png)
