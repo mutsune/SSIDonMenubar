@@ -16,5 +16,7 @@ Install
 Downoload the app from [releases page](https://github.com/mutsune/SSIDonMenubar/releases)
 
 
-## License
+License
+=======
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmutsune%2FSSIDonMenubar.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmutsune%2FSSIDonMenubar?ref=badge_large)
